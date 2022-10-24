@@ -1,18 +1,18 @@
 #include<stdio.h>
-//sınavda cıkar 
+//sÄ±navda cÄ±kar 
 int main(void){
 	int x=10;
-	int *p1=&x; //isaretçi p1 
-	int **p2 = &p1; //işaretçi gösteren isaretci
-	printf("X=%d\n", x);
-	printf("X=%d\n", &x); //x adresi
-	printf("X=%d\n", p1); //p1 içerisindekini yani x in adresini verir
-	printf("X=%d\n", *p1); //.... adresindeki veriyi verir. yani X in değeri verdi. 
-	printf("X=%d\n", &p1); 
-	printf("X=%d\n", p2); //p1 Adresini verir. 
-	printf("X=%d\n", *p2); //X'in adresini verir.
-	printf("X=%d\n", **p2); //X in  değerini verdi
-	printf("X=%d\n", *(&x)); //X değerini verdi. 
+	int *p1=&x; //isaretÃ§i p1 
+	int **p2 = &p1; //iÅŸaretÃ§i gÃ¶steren isaretci
+	printf("x = %d\n", x);
+	printf("&x = %d\n", &x); //x adresi
+	printf("p1 = %d\n", p1); //p1 iÃ§erisindekini yani x in adresini verir
+	printf("*p1 = %d\n", *p1); //.... adresindeki veriyi verir. yani X in deÄŸeri verdi. 
+	printf("&p1 = %d\n", &p1); 
+	printf("p2 = %d\n", p2); //p1 Adresini verir. 
+	printf("*p2 = %d\n", *p2); //X'in adresini verir.
+	printf("**p2 = %d\n", **p2); //X in  deÄŸerini verdi
+	printf("X=%d\n", *(&x)); //X deÄŸerini verdi. 
 	
 	
 	
